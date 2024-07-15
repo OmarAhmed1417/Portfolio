@@ -103,7 +103,7 @@ const Header = () => {
           </Link>
         </div>
         {/* my image */}
-        <div className="pic" ref={elementRef2}>
+        {/* <div className="pic" ref={elementRef2}>
         <LazyImageWithPlaceholder
                   src={pic}
                   alt="pic"
@@ -111,7 +111,7 @@ const Header = () => {
                   width={'400px'}
                   height={'auto'}
                 />
-        </div>
+        </div> */}
       </div>
     </section>
   );
