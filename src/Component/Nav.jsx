@@ -61,7 +61,7 @@ let go=()=>{
     <section className='link'>
       <div className="nav" onScroll={go} ref={color}>
         <div className="header" ref={elementRef}>
-          <img src={logo} alt="logo" width='250px'  height='auto' loading='lazy' />
+          <img src={logo} alt="logo" className='logo' width='250px'  height='auto' loading='lazy' />
         </div>
         <ul >
           <li ref={elementRef}>

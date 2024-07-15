@@ -177,7 +177,7 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-.head .Header .pic img {
+.head .Header img {
   width: 400px;
   height: auto;
 }
@@ -406,12 +406,22 @@ body {
   flex-direction: column;
 }
 .myself .container {
-  width: 80%;
+  margin-left: 120px;
+
+  display: flex;
+ 
   background-color: #030637;
   border-radius: 20px;
   padding: 5pc;
   background-color: #030637;
-  width: 80%;
+ 
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}
+.about p{
+  padding: 10px;
 }
 
 .project {
@@ -537,6 +547,9 @@ body {
 }
 
 @media (max-width: 480px) {
+  .Contact {
+    margin-left: 60px;
+  }
   .nav button {
     background-color: #e4dee4;
     border: none;
@@ -557,7 +570,7 @@ body {
     margin-bottom: 15px;
     background-color: transparent;
     background: #030637;
-    width: 100%;
+    width: 108%;
     position: fixed;
     top: 0;
     z-index: 10000;
@@ -565,29 +578,33 @@ body {
     height: 50px;
     margin-right: 55px;
   }
-  .nav img {
-    width: 176px;
-    height: auto;
-    padding: 15px;
-  }
+  .head .Header img {
+ 
+ 
+    display: none;
+}
   body {
     overflow-x: auto;
   }
   .head {
-    margin-left: -78px;
+     
     /* display: flex; */
     /* justify-content: center; */
     flex-direction: column;
     /* text-align: justify; */
   }
+  .logo{
+    margin-left: 30px;
+  }
   .head .Header {
     display: flex;
     justify-content: space-between;
     color: #e4dee4;
-    /* padding: 5pc; */
+    padding: 5pc;
     background-color: #030637;
     width: 60%;
     border-radius: 20px;
+    margin-left: 35px;
   }
   .head .Header .pic{
     display: none;
@@ -737,12 +754,13 @@ body {
     opacity: 0;
   }
   .project {
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 102%;
-    margin-left: -8px;
+ 
   }
   .project .Title {
     text-align: center;
@@ -758,6 +776,8 @@ body {
     flex-direction: column;
   }
   .aboutme .skills {
+    margin-left: 60px;
+
     border-radius: 20px;
     background-color: #030637;
     width: 100%;
@@ -887,7 +907,7 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     height: auto;
     font-size: 15px;
-    width: 182%;
+   
   }
   .head .Header .text button {
     margin-top: 10px;
@@ -1175,10 +1195,8 @@ body {
     font-weight: bold;
   }
   .information .about p {
-    white-space: 12px;
-    font-size: 14px;
-    width: 52pc;
-    padding: 1px;
+    width: 47pc;
+    padding: 18px;
   }
   .myself {
     width: 96%;
