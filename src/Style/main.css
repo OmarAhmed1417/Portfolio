@@ -571,7 +571,7 @@ body {
     padding: 15px;
   }
   body {
-    overflow-x: hidden;
+    overflow-x: auto;
   }
   .head {
     margin-left: -78px;
@@ -586,8 +586,11 @@ body {
     color: #e4dee4;
     /* padding: 5pc; */
     background-color: #030637;
-    width: 55%;
+    width: 60%;
     border-radius: 20px;
+  }
+  .head .Header .pic{
+    display: none;
   }
   .head .Header .text {
     display: flex;
@@ -807,6 +810,17 @@ body {
     font-size: 15px;
     left: 0;
   }
+  .Contact .container {
+    background-color: #030637;
+    width: 83%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    padding: 10px 10px 0 10px;
+}
+.projects{
+  display: none;
+}
 }
 @media ((min-width: 481px) and (max-width: 768px)) {
   .nav button {
@@ -1721,3 +1735,6 @@ body {
 .aboutme .skills {
   width: 90%;
 }/*# sourceMappingURL=main.css.map */
+/* .loading{
+  display: none;
+} */
