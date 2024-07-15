@@ -409,12 +409,12 @@ body {
   margin-left: 120px;
 
   display: flex;
-  width: 80%;
+ 
   background-color: #030637;
   border-radius: 20px;
   padding: 5pc;
   background-color: #030637;
-  width: 100%;
+ 
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: center;
@@ -570,7 +570,7 @@ body {
     margin-bottom: 15px;
     background-color: transparent;
     background: #030637;
-    width: 100%;
+    width: 108%;
     position: fixed;
     top: 0;
     z-index: 10000;
@@ -604,7 +604,7 @@ body {
     background-color: #030637;
     width: 55%;
     border-radius: 20px;
-    margin-left: 19px;
+    margin-left: 35px;
   }
   .head .Header .text {
     display: flex;
