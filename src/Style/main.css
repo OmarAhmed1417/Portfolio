@@ -525,6 +525,7 @@ body {
   z-index: 10000;
   display: flex;
   flex-direction: column;
+  left: 0;
 }
 .Not a button {
   background-color: #000000;
