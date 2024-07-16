@@ -63,14 +63,12 @@ let go=()=>{
         <div className="header" ref={elementRef}>
           <img src={logo} alt="logo" className='logo' width='250px'  height='auto' loading='lazy' />
         </div>
-        <ul >
-          <li ref={elementRef}>
-          <Link to="/view/src/imges/Omar-Ahmed-FlowCV-Cover-Letter-20240619.pdf">
+    
+          <div >
+          <Link ref={elementRef} to="/view/src/imges/Omar-Ahmed-FlowCV-Cover-Letter-20240619.pdf">
             <button>My Cv</button>
           </Link>
-          </li>
-         
-        </ul>
+       </div>
       </div>
     </section>
   );

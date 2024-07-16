@@ -123,8 +123,9 @@ const Projects = () => {
                   src={arch}
                   alt="Architecture"
                   placeholder={placeholder}
-                  width={'400px'}
-                  height={'auto'}
+                  // width={'400px'}
+                  // height={'auto'}
+               
                 />
               </Link>
             </div>

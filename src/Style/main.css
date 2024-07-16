@@ -537,291 +537,205 @@ body {
 }
 
 @media (max-width: 480px) {
-  .nav button {
-    background-color: #e4dee4;
-    border: none;
-    border-radius: 15px;
-    /* padding: 10px; */
-    width: 98px;
-    font-size: 12px;
-    position: relative;
-    z-index: 100;
-    font-weight: bold;
-    /* padding: 15px; */
-  }
-  .nav {
-    border-radius: 20px;
-    display: flex;
-    padding-right: 4pc;
-    border-bottom: 1px solid #000000;
-    margin-bottom: 15px;
-    background-color: transparent;
-    background: #030637;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 10000;
-    border-bottom: none;
-    height: 50px;
-    margin-right: 55px;
-  }
-  .nav img {
-    width: 176px;
-    height: auto;
-    padding: 15px;
-  }
-  body {
-    overflow-x: hidden;
-  }
-  .head {
-    margin-left: -78px;
-    /* display: flex; */
-    /* justify-content: center; */
-    flex-direction: column;
-    /* text-align: justify; */
-  }
-  .head .Header {
-    display: flex;
-    justify-content: space-between;
-    color: #e4dee4;
-    padding: 5pc;
-    background-color: #030637;
-    width: 59%;
-    border-radius: 20px;
-  }
-  .head .Header .text {
+
+body{
+  overflow: visible;
+}
+.nav {
+  /* border-radius: 20px; */
+  display: flex;
+  justify-content: start;
+  padding: 20px;
+  /* padding-left: 4pc; */
+  /* padding-right: 4pc; */
+  border-bottom: 1px solid #000000;
+  margin-bottom: 15px;
+  background-color: transparent;
+  background: #030637;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  border-bottom: none;
+  height: 50px;
+}
+.Header img{
+  width: 145px;
+}
+.nav button {
+  background-color: #e4dee4;
+  border: none;
+  border-radius: 15px;
+  padding: 12px;
+  width: 100px;
+  font-size: 15px;
+  position: relative;
+  z-index: 100;
+  font-weight: bold;
+}
+.head .Header {
+  display: flex;
+  justify-content: space-between;
+  color: #e4dee4;
+  padding: 3px;
+  background-color: #030637;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+.head .Header .text {
     display: flex;
     flex-direction: column;
-    /* gap: 10px; */
-    width: 100%;
-    font-size: 17px;
-    /* margin: 10px; */
-  }
-  .head .Header .text p {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    height: auto;
-    font-size: 15px;
-    width: 130%;
-  }
-  .head .Header .text button {
-    margin-top: 10px;
-    background-color: #e4dee4;
-    border: none;
-    border-radius: 15px;
-    padding: 10px;
-    width: 116px;
-    font-size: 14px;
-    position: relative;
-    z-index: 100;
-    font-weight: bold;
-  }
-  .information .about p {
-    white-space: 12px;
-    font-size: 14px;
-    width: 274px;
-    padding: 1px;
-  }
-  .myself {
-    width: 79%;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    flex-direction: column;
-    padding: 0px;
-  }
-  .information .about {
-    padding: 20px;
-    /* font-size: 16px; */
-    word-spacing: 4px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    width: 220px;
-    /* padding: 35px; */
-  }
-  .information {
-    display: flex;
-    /* justify-content: space-between; */
-    color: #e4dee4;
-    padding: 5pc;
-    flex-direction: column;
-    align-items: center;
-  }
-  .information img {
-    width: 285px;
-    height: auto;
-  }
-  .information .about button {
-    font-weight: bold;
-    margin-top: 10px;
-    color: #0A0119;
-    background-color: #e4dee4;
-    border: none;
-    border-radius: 15px;
-    padding: 10px;
-    width: 88px;
-    font-size: 14px;
-    position: relative;
-    z-index: 100;
-  }
-  .projects .first {
-    width: 385px;
-    height: auto;
-    position: relative;
-    text-align: center;
-  }
-  .projects .first img {
-    width: 67%;
-    height: auto;
-    margin-left: 25px;
-  }
-  .projects .second img {
-    width: 65%;
-    height: auto;
-    margin-left: 8px;
-  }
-  .projects {
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 100px;
-    padding: 70px;
-    flex-direction: column;
-    display: none;
-  }
-  .project .section3 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #030637;
-    width: 100%;
-    border-radius: 20px;
-    padding-top: 20px;
-    margin-top: 20px;
-  }
-  .projects .first .hotel {
-    width: 370px;
-    position: relative;
-  }
-  .projects .first .icons {
-    left: 18%;
-    position: absolute;
-    top: 0%;
-    width: 66%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom, transparent, rgb(46, 46, 63));
-    opacity: 0;
-  }
-  .projects .second {
-    width: 370px;
-    position: relative;
-    margin-left: -6px;
-  }
-  .projects .second .icons {
-    left: 20%;
-    position: absolute;
-    top: 0%;
-    width: 71%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom, transparent, rgb(46, 46, 63));
-    opacity: 0;
-  }
-  .project {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 102%;
-    margin-left: -8px;
-  }
-  .project .Title {
-    text-align: center;
-    color: #e4dee4;
-    font-size: 20px;
-  }
-  .aboutme .skills .first, .aboutme .skills .second, .aboutme .skills .third {
-    margin-right: 100px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    /* justify-content: space-between; */
-    flex-direction: column;
-  }
-  .aboutme .skills {
-    border-radius: 20px;
-    background-color: #030637;
-    width: 100%;
-    padding-top: 10px;
-    color: #e4dee4;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .Contact .email {
-    text-align: center;
-    font-size: 11px;
-  }
-  .Contact .icons {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    gap: 4px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .Contact .icons .contactme {
-    /* margin-right: 25px; */
-    padding: 30px;
-  }
-  .Contact .container {
-    background-color: #030637;
-    width: 88%;
-    margin-top: 20px;
-    border-radius: 20px;
-    padding: 20px;
-    margin-right: 33px;
-    padding: 10px 10px 0 10px;
-  }
-  body {
-    overflow-x: hidden;
-  }
-  .head .Header .pic img {
-    width: 400px;
-    height: auto;
-    display: none;
-  }
-  .loading {
-    flex-direction: column;
-    font-size: 30px;
-    left: 0;
-  }
-  .Not {
-    font-size: 15px;
-    left: 0;
-  }
-  .project {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 102%;
-    margin-left: -8px;
-    display: none;
+    gap: 10px;
+    width: 348px;
+    font-size: 18px;
+    margin: 10px;
+}
+  
+.head .Header .text p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: auto;
+  font-size: 15px;
+}
+.myself {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  flex-direction: column;
+}
+.myself .container {
+  /* width: 80%; */
+  background-color: #030637;
+  border-radius: 20px;
+  padding: 3px;
+  background-color: #030637;
+  width: 100%;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  color: #e4dee4;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.information .pic2 {
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+}
+.information img {
+  width: 289px;
+  height: auto;
+}
+.information .about {
+  /* padding: 20px; */
+  width: 100%;
+  font-size: 9px;
+  word-spacing: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+}
+.information .about button {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #0A0119;
+  background-color: #e4dee4;
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  width: 94px;
+  font-size: 13px;
+  position: relative;
+  z-index: 100;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.project .section3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #030637;
+  width: 100%;
+  border-radius: 20px;
+  /* padding-top: 20px; */
+  margin-top: 20px;
+  padding: 8px;
+  padding-top: 0px;
+  /* display: none; */
+}
+.project .projects {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 100px;
+  padding: 8px;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.projects .first {
+  height: auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.projects .first .hotel {
+  width: 100%;
+  position: relative;
+}
+.projects .first img {
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+.projects .first .icons {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, transparent, rgb(46, 46, 63));
+  opacity: 0;
+}
+
+.projects .second {
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+}
+.projects .second img {
+  width: 100%;
+}
+.aboutme .skills .first, .aboutme .skills .second, .aboutme .skills .third {
+  margin-right: 100px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .aboutme .skills {
   border-radius: 20px;
   background-color: #030637;
-  width: 91%;
+  width: 100%;
   padding-top: 10px;
   color: #e4dee4;
   display: flex;
@@ -829,21 +743,53 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-right: 45px;
-}
-.head {
-  /* margin-left: -78px; */
-  /* display: flex; */
-  /* justify-content: center; */
-  flex-direction: column;
-  /* text-align: justify; */
-  width: 84%;
-}
-.nav{
-  display: none;
 }
 
+.aboutme {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+
 }
+.second .hotel{
+width: 100%;
+}
+.skills .scale{
+  width: 100%;
+}
+.Contact .container {
+  background-color: #030637;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 7px;
+  /* padding: 5px 10px 0 10px; */
+}
+.Contact .container .email h1{
+  font-size: 14px;
+}
+.Contact .icons {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 4px;
+  flex-direction: column;
+}
+.Contact .icons .contactme {
+  margin-right: 0px;
+  padding: 30px;
+}
+.nav img{
+  width: 150px;
+}
+}
+
+
+
+
 @media ((min-width: 481px) and (max-width: 768px)) {
   .nav button {
     background-color: #e4dee4;
@@ -1741,16 +1687,5 @@ body {
     background-color: #030637;
     width: 100%;
   }
-}
-.project .section3 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  background-color: #030637;
-  width: 90%;
-  border-radius: 20px;
-  padding-top: 20px;
-  margin-top: 20px;
 }
 
