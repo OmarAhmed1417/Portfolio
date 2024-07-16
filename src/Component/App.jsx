@@ -24,7 +24,7 @@ const App = () => {
 
         setTimeout(()=>{
             setloading(false)
-        },5000)
+        },4800)
         
     },[])
     return ( 
