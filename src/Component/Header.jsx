@@ -49,44 +49,44 @@ const Header = () => {
     }, [isVisible]);
     
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-          (entries) => {
-            entries.forEach((entry) => {
-              if (entry.isIntersecting) {
-                setIsVisible2(true);
-              } else {
-                setIsVisible2(false);
-              }
-            });
-          },
-          { threshold: 0.1 }
-        );
+    // useEffect(() => {
+    //     const observer = new IntersectionObserver(
+    //       (entries) => {
+    //         entries.forEach((entry) => {
+    //           if (entry.isIntersecting) {
+    //             setIsVisible2(true);
+    //           } else {
+    //             setIsVisible2(false);
+    //           }
+    //         });
+    //       },
+    //       { threshold: 0.1 }
+    //     );
     
-        if (elementRef2.current) {
-          observer.observe(elementRef2.current);
-        }
+    //     if (elementRef2.current) {
+    //       observer.observe(elementRef2.current);
+    //     }
     
-        return () => {
-          if (elementRef2.current) {
-            observer.unobserve(elementRef2.current);
-          }
-        };
-      }, []);
+    //     return () => {
+    //       if (elementRef2.current) {
+    //         observer.unobserve(elementRef2.current);
+    //       }
+    //     };
+    //   }, []);
     
     
     
-      useEffect(() => {
-        if (isVisible2) {
-            setTimeout(() => {
+    //   useEffect(() => {
+    //     if (isVisible2) {
+    //         setTimeout(() => {
                 
-                gsap.to(elementRef2.current, { opacity: 1, y: 0, duration: 2, ease: 'power3.out',stagger:0.5 });
-            }, 700);
-        }
-         else {
-            gsap.to(elementRef2.current, { opacity: 0, y: 50, duration: 1, ease: 'power3.out',stagger:0.5 });
-        }
-        }, [isVisible2]);
+    //             gsap.to(elementRef2.current, { opacity: 1, y: 0, duration: 2, ease: 'power3.out',stagger:0.5 });
+    //         }, 700);
+    //     }
+    //      else {
+    //         gsap.to(elementRef2.current, { opacity: 0, y: 50, duration: 1, ease: 'power3.out',stagger:0.5 });
+    //     }
+    //     }, [isVisible2]);
     
   return (
     <section className="head">

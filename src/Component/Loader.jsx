@@ -11,7 +11,7 @@ const Loader = () => {
                 ref.current.style.transition = 1+'s';
             },1500);
             setTimeout(() => {
-                ref.current.style.transform = 'translateX(100%)';
+                ref.current.style.transform = 'translateX(-100%)';
                 ref.current.style.transition = 1+'s';
                 // ref.current.style.overflowX = 'hidden';
                 ref.current.style.overflow = 'hidden';
