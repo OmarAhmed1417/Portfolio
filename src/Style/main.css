@@ -504,6 +504,7 @@ body {
   font-size: 5pc;
   font-family: "Playwrite CU", cursive;
   font-weight: bold;
+  overflow-x: hidden;
   transform: translateX(-100%);
 }
 
@@ -581,7 +582,7 @@ body{
   background-color: #030637;
   width: 100%;
   border-radius: 20px;
-  margin-top: 25px;
+  margin-top: 64px;
 }
 
 .head .Header .text {
@@ -788,6 +789,8 @@ width: 100%;
 .loading{
   flex-direction: column;
   font-size: 20px;
+  overflow-x: hidden;
+
 }
 body{
   overflow-x: hidden;
