@@ -589,7 +589,7 @@ body{
     flex-direction: column;
     gap: 10px;
     width: 348px;
-    font-size: 18px;
+    font-size: 15px;
     margin: 10px;
 }
   
@@ -765,7 +765,7 @@ width: 100%;
   width: 100%;
   margin-top: 20px;
   border-radius: 20px;
-  padding: 7px;
+  padding: 9px;
   /* padding: 5px 10px 0 10px; */
 }
 .Contact .container .email h1{
@@ -793,7 +793,15 @@ body{
   overflow-x: hidden;
 
 }
-
+.Not{
+  flex-direction: column;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+.nav{
+  justify-content: space-between;
+}
 }
 
 
