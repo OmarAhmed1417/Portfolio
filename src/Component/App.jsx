@@ -20,11 +20,11 @@ const App = () => {
     useEffect(()=>{
         setTimeout(()=>{
             setapeer(true);
-        },3000)
+        },3500)
 
         setTimeout(()=>{
             setloading(false)
-        },4500)
+        },5000)
         
     },[])
     return ( 
