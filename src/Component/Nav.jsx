@@ -65,9 +65,9 @@ let go=()=>{
         </div>
     
           <div >
-          <Link ref={elementRef} to="/view/src/imges/Omar-Ahmed-FlowCV-Cover-Letter-20240619.pdf">
+          <a ref={elementRef} href="/public/Omar-Ahmed-FlowCV-Cover-Letter-20240619.pdf" download={'/public/Omar-Ahmed-FlowCV-Cover-Letter-20240619.pdf'}>
             <button>My Cv</button>
-          </Link>
+          </a>
        </div>
       </div>
     </section>

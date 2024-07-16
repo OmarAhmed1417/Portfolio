@@ -18,15 +18,16 @@ const Contact = () => {
            <h2>Omar Ahmed</h2>
             </div>
             <div className="contactme">
-                <Link to="www.linkedin.com/in/omar-ahmed-33a467298" target='blank'>
+                <Link to="https://www.linkedin.com/in/omar-ahmed-33a467298/" target='blank'>
+                
             <i className="fa-brands fa-linkedin"></i>
                 </Link>
-                <Link to=" https://www.facebook.com/profile.php?id=100028334143840&locale=ar_AR" target='blank'>
+                <Link to="https://www.facebook.com/profile.php?id=100028334143840&mibextid=ZbWKwL" target='blank'>
             <i className="fa-brands fa-facebook"></i>
                 </Link>
-            <Link to="https://api.whatsapp.com/send?phone=2001062610800" target='blank'>
+                <Link to="https://api.whatsapp.com/send?phone=2001062610800" target='blank'>
             <i className="fa-brands fa-whatsapp"></i>
-            </Link>
+          </Link>
             </div>
         </div>
         </div>

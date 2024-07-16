@@ -589,14 +589,14 @@ body{
     flex-direction: column;
     gap: 10px;
     width: 348px;
-    font-size: 15px;
+    font-size: 13px;
     margin: 10px;
 }
   
 .head .Header .text p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   height: auto;
-  font-size: 15px;
+  font-size: 14px;
 }
 .myself {
   width: 100%;
@@ -619,7 +619,7 @@ body{
   display: flex;
   justify-content: space-between;
   color: #e4dee4;
-  padding: 5px;
+  padding: 4px;
   display: flex;
   flex-direction: column;
 }
@@ -670,7 +670,7 @@ body{
   border-radius: 20px;
   /* padding-top: 20px; */
   margin-top: 20px;
-  padding: 8px;
+  padding: 7px;
   padding-top: 0px;
   /* display: none; */
 }
@@ -678,7 +678,7 @@ body{
   display: flex;
   /* justify-content: space-between; */
   gap: 100px;
-  padding: 8px;
+  padding: 7px;
   justify-content: center;
   flex-direction: column;
   width: 100%;
@@ -798,6 +798,7 @@ body{
   font-size: 15px;
   padding: 0;
   margin: 0;
+  left: 0;
 }
 .nav{
   justify-content: space-between;
